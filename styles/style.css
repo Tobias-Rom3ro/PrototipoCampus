@@ -13,6 +13,7 @@ nav.top-nav {
     padding: 2px 20px;
     border-bottom: 1px solid #ccc;
     border-top: 4px solid #0183F0;
+    gap: 1px;
 }
 
 nav.top-nav img {
@@ -21,7 +22,7 @@ nav.top-nav img {
 
 #campusLogo {
     height: 50px;
-    margin: 1px 10px;
+    margin: 10px 20px;
 }
 
 nav.top-nav .top-nav-1 {
@@ -108,7 +109,8 @@ nav.top-nav .top-nav-4 {
     height: 33px;
     border-radius: 20%;
     margin-left: 20px;
-    cursor: pointer; 
+    margin-right: 30px;
+    cursor: pointer;
 }
 
 
@@ -194,15 +196,15 @@ nav.bottom-nav a:hover {
 
 .cards {
     display: flex;
-    justify-content: center; /* Centra las cards */
-    flex-wrap: wrap; /* Permite que las cards se ajusten a diferentes tamaños de pantalla */
-    gap: 20px; /* Espaciado uniforme entre cards */
-    max-width: 900px; /* Ajusta el ancho máximo para que 3 cards ocupen la fila */
-    margin: 0 auto; /* Centra el contenedor */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .card {
-    width: 200px; /* Ancho fijo para asegurar que haya 3 por fila */
+    width: 200px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
