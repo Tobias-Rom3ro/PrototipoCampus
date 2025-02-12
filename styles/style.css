@@ -20,7 +20,8 @@ nav.top-nav img {
 }
 
 #campusLogo {
-    height: 35px;
+    height: 50px;
+    margin: 1px 10px;
 }
 
 nav.top-nav .top-nav-1 {
@@ -51,11 +52,11 @@ nav.top-nav a {
 
 nav.top-nav .top-nav-3 {
     display: flex;
-    gap: 13px;
+    gap: 5px;
 }
 
 nav.top-nav .top-nav-3 img {
-    margin-right: 6px;
+    margin-right: 10px;
     height: 35px;
 }
 
@@ -79,38 +80,35 @@ nav.top-nav .top-nav-4 {
     justify-content: space-around;
 }
 
-/* Estilos para el icono con iniciales */
 .icon {
     width: 40px;
     height: 40px;
-    background-color: #3155bf; /* Color azul */
+    background-color: #3155bf;
     color: white;
     font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15%; /* Hace que el icono sea circular */
+    border-radius: 15%;
     font-size: 14px;
     margin-top: 5px;
     margin-right: 10px;
 }
 
-/* Estilos para el nombre de usuario */
 #userName {
     font-size: 14px;
     font-weight: 400;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 300px; /* Ajusta el ancho máximo */
+    max-width: 300px;
 }
 
-/* Estilos para el icono de ajustes */
 #settings {
     height: 33px;
     border-radius: 20%;
     margin-left: 20px;
-    cursor: pointer; /* Indica que es interactivo */
+    cursor: pointer; 
 }
 
 
